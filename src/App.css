@@ -1,0 +1,36 @@
+.app {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 28px 16px;
+}
+
+
+.top {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.top h1 {
+  margin-bottom: 6px;
+}
+
+.top p {
+  margin-top: 0;
+  color: #666;
+}
+
+.selector {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.selector select {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: white;
+}
